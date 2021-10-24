@@ -1,5 +1,4 @@
-# CoSimHeat：An Effective Heat Kernel Similarity Measure
-Based on Billion-Scale Network Topology  
+# CoSimHeat：An Effective Heat Kernel Similarity Measure Based on Billion-Scale Network Topology  
 
 ## Tested Environment:
 
@@ -16,7 +15,7 @@ Based on Billion-Scale Network Topology
 - EN：English word graph
   - EN_TS68_ground_truth.txt：ground truth
   - dictionary：the dictionary of id and word
-  - edges.mtx：Normalized English graph
+  - edges.mtx：Normalized English graph (LFS)
   - outDegree.txt：the outDegree of graph
 - EE：Email network of a EU institution
   - euAll.txt：graph
