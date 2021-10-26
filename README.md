@@ -3,7 +3,7 @@
 
 - Windows 10 
 - Intel Core i7-6700 3.40GHz CPU and 64GB memory   
-- Visual Studio 2019
+- Visual Studio C++ 2019
 
 ## Main:
 
@@ -30,7 +30,7 @@ errorTest(c, theta, kmax);
 
 ## Compared Algorithms:
 
-We compared a series of algorithms, and the algorithm implementation files are shown below:
+We compared a series of algorithms, whose implementation files are shown below:
 
 - CoSimHeat (our) : CoSimHeat.h 
 - CoSimRank : CoSR.h
@@ -47,7 +47,7 @@ We compared a series of algorithms, and the algorithm implementation files are s
   - DP_ground_truth.txt：ground truth
 - EN：English word graph
   - EN_TS68_ground_truth.txt：ground truth
-  - dictionary：the dictionary (id, word)
+  - dictionary：the dictionary  (id, word)
   - edges.mtx：Normalized English graph
   - outDegree.txt：the outDegree of each node on graph
 - EE：Email network of a EU institution
@@ -59,4 +59,4 @@ We compared a series of algorithms, and the algorithm implementation files are s
 - UK：A 2002 crawl of the .uk domain
   - https://suitesparse-collection-website.herokuapp.com/MM/LAW/uk-2002.tar.gz
 
-Folders M and N under each dataset store randomly sampled nodes according to the output distribution.
+Folders M and N under each dataset store the query nodes that are randomly sampled according to the degree distribution of each graph.
